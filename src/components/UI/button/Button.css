@@ -1,0 +1,31 @@
+.btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+
+.btn-add {
+    background-color: var(--brease);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-add:hover {
+    background-color: transparent;
+    color: #000;
+    border-color: var(--brease);
+}
+
+.btn-delete {
+    border-color: var(--pink);
+    color: var(--pink);
+    background-color: transparent;
+}
+
+.btn-delete:hover {
+    background-color: var(--pink);
+    color: #ffffff;
+}

@@ -1,0 +1,30 @@
+.todo-item {
+    padding: 20px;
+    min-height: 300px;
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2);
+}
+
+.add-item__form {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+
+.add-item__form input {
+    flex-grow: 1;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px;
+    color: #B3B3B3;
+}
+
+.add-item__form input::placeholder {
+    color: #B3B3B3
+}
+
+.todo_block {
+    margin-top: 15px;
+}

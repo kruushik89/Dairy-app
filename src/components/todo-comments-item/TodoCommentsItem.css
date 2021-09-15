@@ -1,0 +1,18 @@
+.todo-comment {
+    display: flex;
+    border-bottom: 1px solid #D0D0D0;
+    padding: 10px 10px 10px 0;
+    grid-column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.comment-item_icon {
+    width: 40px;
+    height: 40px;
+    background-color: #FF8A00;
+}
+
+.comment-item_text {
+    color: #B3B3B3;
+    font-size: 14px;
+}
